@@ -14,4 +14,4 @@ Use external URL.
 4. Publish in WordPress posts, pages, Woocommerce products with the help of shortcode: 
 [babylon]URL-OF-3D-FILE[/ babylon]
 Make sure there are no spaces between ]URL-and-brackets[ .
-5.Another option is to publish 3D files with the standard WordPress HTML block and have more ways to configure Babylon Viewer. Read more at https://doc.babylonjs.com/extensions/configuring_the_viewer
+5. Another option is to publish 3D files with the standard WordPress HTML block and have more ways to configure Babylon Viewer. Read more at https://doc.babylonjs.com/extensions/configuring_the_viewer
