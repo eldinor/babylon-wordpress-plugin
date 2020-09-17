@@ -34,7 +34,16 @@ function custom_upload_mimes ( $existing_mimes=array() ) {
 add_filter('upload_mimes', 'custom_upload_mimes');
 
 // Adding Babylon Viewer into header
+
+
+function babyloncall() {
 wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null );
+}
+add_action( 'wp_enqueue_scripts', 'babyloncall' );
+
+
+
+
 // Adding shortcode
 function babylon_shortcode($atts = [], $content = null) {
     $url = $content;
