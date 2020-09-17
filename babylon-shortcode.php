@@ -3,7 +3,7 @@
  * Plugin Name: Babylon 3D Viewer for Wordpress
  * Plugin URI: http://igiuk.com/babylon-3d-wordpress/
  * Description: Display 3D content using a shortcode to insert in a page or post. Supports GLTF, GLB and BABYLON files upload. Shortcode: [babylon]URL-OF-3D-FILE[/babylon]
- * Version: 0.1
+ * Version: 0.2
  * Text Domain: babylon_shortcode
  * Author: Andrei Stepanov
  * Author URI: http://igiuk.com/babylon-3d-wordpress/
