@@ -53,7 +53,7 @@ Just put it into standard **Wordpress HTML Gutenberg block**:
   </camera>
   <scene>
     <clear-color r="1" g="1" b="1"></clear-color>
-  </scene>****
+  </scene>
 </babylon>`
 
 
