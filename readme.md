@@ -58,6 +58,8 @@ Just put it into standard **Wordpress HTML Gutenberg block** and publish:
 
 Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/configuring_the_viewer
 
+**Video Demontration**: https://youtu.be/GNFNt2lGBYw
+
 **Demo**: https://igiuk.com/babylon-3d-wordpress/
 
 ## Changelog
