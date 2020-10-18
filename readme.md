@@ -6,9 +6,7 @@ Shortcode: [babylon]URL-OF-3D-FILE[/babylon]
 **Demo**: https://igiuk.com/babylon-3d-wordpress/
 
 ## Installation and Usage
-1. Standard WordPress plugin installation: go to Plugins -> Add New – upload .zip file.
-
-  1.1 If you use older version of this plugin, first deactivate it and delete. Plugin doesn't contain any user data.
+1. Standard WordPress plugin installation: go to Plugins -> Add New – upload .zip file. If you use older version of this plugin, first deactivate it and delete. Plugin doesn't contain any user data.
 2. Activate the plugin.
 3. Upload 3D file in .GLTF, .GLB or .BABYLON format.
 Or
