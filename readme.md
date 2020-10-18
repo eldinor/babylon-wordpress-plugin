@@ -17,4 +17,5 @@ Make sure there are no spaces between ]URL-and-brackets[ .
 5. Another option is to publish 3D files with the standard WordPress HTML block and have more ways to configure Babylon Viewer. Read more at https://doc.babylonjs.com/extensions/configuring_the_viewer
 
 ## Changelog
+Version 0.3. Updating...
 Version 0.2. Corrected - Notice: wp_enqueue_script was called incorrectly.
