@@ -28,7 +28,33 @@ Make sure there are **no spaces** between ]URL-and-brackets[ .
 ### Example
 Just put it into standard **Wordpress HTML Gutenberg block**:
 
-
+```<babylon extends="minimal">
+  <!-- Ground that receives shadows -->
+  <ground receive-shadows="true"></ground>
+  <!-- Default skybox
+ <skybox></skybox>
+ -->
+         <model url="https://models.babylonjs.com/CornellBox/cornellBox.glb">
+        </model>
+  <!-- enable antialiasing -->
+  <engine antialiasing="true"></engine>
+  <!-- camera configuration -->
+  <camera>
+    <!-- add camera behaviors -->
+    <behaviors>
+      <!-- enable default auto-rotate behavior -->
+      <auto-rotate type="0"></auto-rotate>
+      <!-- enable and configure the framing behavior -->
+      <framing type="2" zoom-on-bounding-info="true" zoom-stops-animation="false"></framing>
+      <!-- enable default bouncing behavior -->
+      <bouncing type="1"></bouncing>
+    </behaviors>
+  <position x="3" y="3" z="3"></position>
+  </camera>
+  <scene>
+    <clear-color r="1" g="1" b="1"></clear-color>
+  </scene>
+</babylon>```
 
 
 Read more at https://doc.babylonjs.com/extensions/configuring_the_viewer
