@@ -1,11 +1,13 @@
 # Babylon Viewer 3D Wordpress Plugin
-Display 3D models and 3D scenes with the help of shortcode [babylon]URL-OF-3D-FILE[/babylon] to insert the 3D Viewer into Wordpress page, post, Woocommerce product, Elementor etc. 
+**Display 3D models and 3D scenes **with the help of shortcode [babylon]URL-OF-3D-FILE[/babylon] to use the **3D Viewer in Wordpress pages, posts, Woocommerce products, Elementor blocks** etc. 
 
 **Supports GLTF, GLB, STL, OBJ+MTL** and **BABYLON** files upload and demonstration. 
 
-Babylon Viewer 3D Wordpress Plugin automatically provides a **default viewing experience for 3D models**. All aspects of this experience are configurable. See [Configuring Babylon.js Viewer](https://doc.babylonjs.com/extensions/configuring_the_viewer "Configuring Babylon.js Viewer") for more information on customizing the viewing experience.
+**Babylon Viewer 3D Wordpress Plugin** automatically **provides** a **default viewing experience for 3D models**. **All aspects** of this experience **are configurable**. See [Configuring Babylon.js Viewer](https://doc.babylonjs.com/extensions/configuring_the_viewer "Configuring Babylon.js Viewer") for more information on customizing the viewing experience.
 
-If you need more control, you may use `<babylon></babylon>` tag in any Wordpress HTML block and configure all needed parameters (light, camera position, camera behaviour, rotating etc).
+If you need **more control**, you may use `<babylon></babylon>` tag in any Wordpress HTML block and **configure all needed parameters** (light, camera position, camera behaviour, rotating etc).
+
+If you upload OBJ file, make sure to upload corresponding MTL file too.
 
 **Shortcode:** [babylon]URL-OF-3D-FILE[/babylon]. Supports external URLs.
 
@@ -16,10 +18,10 @@ If you need more control, you may use `<babylon></babylon>` tag in any Wordpress
 1. Standard WordPress plugin installation: go to Plugins -> Add New – upload .zip file. 
 **If you use older version of this plugin, first deactivate it and delete**. Plugin doesn't contain any user data.
 2. Activate the plugin.
-3. Upload 3D file in GLTF, GLB, STL, OBJ+MTL or BABYLON format.
-Or use external URL - link to the 3D file.
-4. Publish in WordPress posts, pages, Woocommerce products, Elementor etc with the help of shortcode: 
-[babylon]URL-OF-3D-FILE[/ babylon]
+3. **Upload** 3D file in **GLTF, GLB, STL, OBJ+MTL** or **BABYLON** format.
+**Or use external URL** - link to the 3D file.
+4. **Publish** in WordPress posts, pages, Woocommerce products, Elementor blocks etc with the help of **shortcode**: 
+[Babylon]Url-Of-3D-File[/ Babylon]
 Make sure there are **no spaces** between ]URL-and-brackets[ .
 5. Another option is to publish 3D files with the standard WordPress HTML block and have more ways to configure Babylon Viewer. You may adjust all needed parameters (light, camera position, camera behaviour, rotating etc), create our own Viewer template, change logo and link at navigation bar etc.
 
@@ -51,7 +53,7 @@ Just put it into standard **Wordpress HTML Gutenberg block**:
   </camera>
   <scene>
     <clear-color r="1" g="1" b="1"></clear-color>
-  </scene>
+  </scene>****
 </babylon>`
 
 
