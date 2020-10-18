@@ -66,6 +66,7 @@ Plugin name changed to **Babylon Viewer 3D Wordpress Plugin** - to 	distinguish 
 Plugin Code is rewritten for better standards and compatibility in future.
 
 Added: correct MIME file formats:
+
                     $mimes['gltf'] = 'model/gltf+json';
                     $mimes['glb'] = 'model/gltf-binary';
                     $mimes['obj'] = 'model/obj';
