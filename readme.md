@@ -9,7 +9,6 @@ If you need **more control**, you may use `<babylon></babylon>` tag in any Wordp
 
 **Shortcode:** [babylon]URL-OF-3D-FILE[/babylon]. Supports external URLs.
 
-
 **Demo**: https://igiuk.com/babylon-3d-wordpress/
 
 ## Installation and Usage
@@ -60,13 +59,13 @@ Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/
 
 **Video Demontration**: https://youtu.be/GNFNt2lGBYw
 
-**Demo**: https://igiuk.com/babylon-3d-wordpress/
+**Wordpress Demo**: https://igiuk.com/babylon-3d-wordpress/
 
 ## Changelog
 **Version 0.3 - Major update!**
 Plugin name changed to **Babylon Viewer 3D Wordpress Plugin** - to 	distinguish it from **Babylon JS 3D Wordpress Plugin** which is going to be published soon.
 
-Plugin Code is rewritten for better standards and compatibility in future.
+Plugin Code is completely rewritten for better standards and compatibility in future.
 
 Added: correct MIME file formats:
 
