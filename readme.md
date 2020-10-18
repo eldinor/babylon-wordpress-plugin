@@ -60,5 +60,17 @@ Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/
 **Demo**: https://igiuk.com/babylon-3d-wordpress/
 
 ## Changelog
-Version 0.3. Updating...
-Version 0.2. Corrected - Notice: wp_enqueue_script was called incorrectly.
+**Version 0.3 - Major update!**
+Plugin name changed to **Babylon Viewer 3D Wordpress Plugin** - to 	distinguish it from **Babylon JS 3D Wordpress Plugin** which is going to be published soon.
+
+Plugin Code is rewritten for better standards and compatibility in future.
+
+Added: correct MIME file formats:
+                    $mimes['gltf'] = 'model/gltf+json';
+                    $mimes['glb'] = 'model/gltf-binary';
+                    $mimes['obj'] = 'model/obj';
+                    $mimes['mtl'] = 'model/mtl';
+                    $mimes['stl'] = 'model/stl';
+                    $mimes['babylon'] = 'model/babylon+json';
+
+**Version 0.2.** Corrected - Notice: wp_enqueue_script was called incorrectly.
