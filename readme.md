@@ -57,6 +57,8 @@ Just put it into standard **Wordpress HTML Gutenberg block** and publish:
 
 Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/configuring_the_viewer
 
+**Demo**: https://igiuk.com/babylon-3d-wordpress/
+
 ## Changelog
 Version 0.3. Updating...
 Version 0.2. Corrected - Notice: wp_enqueue_script was called incorrectly.
