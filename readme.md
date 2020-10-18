@@ -21,6 +21,7 @@ If you need **more control**, you may use `<babylon></babylon>` tag in any Wordp
 4. **Publish** in WordPress posts, pages, Woocommerce products, Elementor blocks etc with the help of **shortcode**: 
 [babylon]Url-Of-3D-File[/babylon]
 Make sure there are **no spaces** between URL and shortcode brackets[babylon]**URL**[/babylon].
+Video: https://youtu.be/GNFNt2lGBYw
 5. Another option is to publish 3D files with the standard WordPress HTML block and have more ways to configure Babylon Viewer. You may adjust all needed parameters (light, camera position, camera behaviour, rotating etc), create our own Viewer template, change logo and link at navigation bar etc.
 
 ### Example
