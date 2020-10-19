@@ -2,7 +2,7 @@
 
 ### Version 0.3
 
-**Display 3D models and 3D scene** with the help of shortcode [babylon]URL-OF-3D-FILE[/babylon] to use the **3D Viewer in Wordpress posts and pages, Woocommerce products, Elementor blocks** etc. 
+**Display 3D models and 3D scenes** with the help of shortcode [babylon]URL-OF-3D-FILE[/babylon] to use the **3D Viewer in Wordpress posts and pages, Woocommerce products, Elementor blocks** etc. 
 
 **Supports GLTF, GLB, STL, OBJ+MTL** and **BABYLON** files upload and demonstration. 
 
