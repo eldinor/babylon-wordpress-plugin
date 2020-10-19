@@ -27,7 +27,7 @@ Video: https://youtu.be/GNFNt2lGBYw
 5. Another option is to publish 3D files with the standard WordPress HTML block and have more ways to configure Babylon Viewer. You may adjust all needed parameters (light, camera position, camera behaviour, rotating etc), create our own Viewer template, change logo and link at navigation bar etc.
 
 ### Example
-Just put it into standard **Wordpress HTML Gutenberg block** and publish:
+Just put it into standard **Wordpress HTML Gutenberg block** and publish (result is here - https://igiuk.com/babylon-3d-wordpress/3d-examples/cornell-box/):
 
                 <babylon extends="minimal">
                   <!-- Ground that receives shadows -->
