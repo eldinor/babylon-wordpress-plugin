@@ -1,4 +1,5 @@
 # Babylon Viewer 3D Wordpress Plugin
+#### Versiob 0.3
 **Display 3D models and 3D scene** with the help of shortcode [babylon]URL-OF-3D-FILE[/babylon] to use the **3D Viewer in Wordpress posts and pages, Woocommerce products, Elementor blocks** etc. 
 
 **Supports GLTF, GLB, STL, OBJ+MTL** and **BABYLON** files upload and demonstration. 
@@ -63,6 +64,7 @@ Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/
 
 ## Changelog
 **Version 0.3 - Major update!**
+
 Plugin name changed to **Babylon Viewer 3D Wordpress Plugin** - to 	distinguish it from **Babylon JS 3D Wordpress Plugin** which is going to be published soon.
 
 Plugin Code is completely rewritten for better standards and compatibility in future.
