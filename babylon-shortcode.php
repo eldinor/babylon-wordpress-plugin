@@ -4,9 +4,12 @@
  * Plugin URI: http://igiuk.com/babylon-3d-wordpress/
  * Description: Display 3D models and 3D scene with the help of shortcode [babylon]URL[/babylon] to use the 3D Viewer in Wordpress posts and pages, Woocommerce products, Elementor blocks etc. Supports GLTF, GLB, STL, OBJ+MTL and BABYLON files upload and demonstration as default viewing experience for 3D models. All aspects of this experience are configurable. If you need more control, you may use <babylon></babylon> tag in any Wordpress HTML block and configure all needed parameters (light, camera position, camera behaviour, rotating etc). Shortcode: [babylon]URL-OF-3D-FILE[/babylon]. Supports external URLs. 
  * Version: 0.3
- * Text Domain: babylon_shortcode
  * Author: Andrei Stepanov
  * Author URI: http://igiuk.com/babylon-3d-wordpress/
+ * Licence: GNU General Public License v3.0
+ * Licence URI: https://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain: babylon-shortcode
+ * GitHub Plugin URI: https://github.com/eldinor/babylon-wordpress-plugin
  */
 
 // SECURITY: to ensure PHP execution is only allowed when it is included as part of the core system.
