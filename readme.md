@@ -20,7 +20,7 @@ If you need **more control**, you may use `<babylon></babylon>` tag in any Wordp
 2. Activate the plugin.
 3. **Upload** 3D file in **GLTF, GLB, STL, OBJ+MTL** or **BABYLON** format. If you upload OBJ file, make sure to upload corresponding MTL file too.
 **Or use external URL** - link to the 3D file.
-4. **Publish** in WordPress posts, pages, Woocommerce products, Elementor blocks etc with the help of **shortcode**: 
+4. **Publish** in **WordPress posts and pages, Woocommerce products, Elementor blocks** etc with the help of **shortcode**: 
 [babylon]Url-Of-3D-File[/babylon]
 Make sure there are **no spaces** between URL and shortcode brackets[babylon]**URL**[/babylon].
 Video: https://youtu.be/GNFNt2lGBYw
