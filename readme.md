@@ -71,6 +71,8 @@ Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/
 
 **Plugin code** is completely rewritten for better standards and compatibility in future.
 
+**Readme** file is rewritten in order to give more necessary information in a more clear way.
+
 Corrected: MIME file formats:
 
                     $mimes['gltf'] = 'model/gltf+json';
