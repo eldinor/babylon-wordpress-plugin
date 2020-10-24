@@ -72,7 +72,7 @@ add_filter( 'wp_check_filetype_and_ext', 'babylonviewer_correct_filetypes' , 10,
 
 // Adding Babylon Viewer into header
 function babylonviewer_call() {
-wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null );
+wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'babylonviewer_call' );
 
