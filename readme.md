@@ -65,6 +65,9 @@ Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/
 **Wordpress Demo**: https://igiuk.com/babylon-3d-wordpress/
 
 ## Changelog
+
+#### Version 0.31 - Automatic script loading only when babylon shortcode or tag exist. 
+
 ### Version 0.3 - Major update!
 
 **Plugin name** changed to **Babylon Viewer 3D Wordpress Plugin** - to 	distinguish it from **Babylon JS 3D Wordpress Plugin** which is going to be published soon.
