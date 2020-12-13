@@ -66,7 +66,9 @@ Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/
 
 ## Changelog
 
-#### Version 0.31 - Automatic script loading only when babylon shortcode or tag exist. 
+#### Version 0.31 
+
+Automatic script loading only when babylon shortcode or tag exist. 
 
 ### Version 0.3 - Major update!
 
