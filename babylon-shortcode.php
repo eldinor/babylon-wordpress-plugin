@@ -80,10 +80,11 @@ wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/vie
 */
 // write inside the loop
 
-    if ( strpos( get_the_content(), '[babylon]' ) !== false || strpos( get_the_content(), '<babylon>' ) !== false ) {
-    wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null, true );
 
-    } //END IF Babylon shortcode or tag exists
+   if ( strpos( get_the_content(), '[babylon]' ) !== false || strpos( get_the_content(), '</babylon>' ) !== false ) {
+    wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null, true );
+}
+  //  } //END IF Babylon shortcode or tag exists
 } // END babylonviewer_call()
 
 add_action( 'wp_enqueue_scripts', 'babylonviewer_call' );
