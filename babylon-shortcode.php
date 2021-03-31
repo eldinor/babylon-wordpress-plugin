@@ -3,7 +3,7 @@
  * Plugin Name: Babylon 3D Viewer for Wordpress
  * Plugin URI: http://igiuk.com/babylon-3d-wordpress/
  * Description: Display 3D models and 3D scene with the help of shortcode [babylon]URL[/babylon] to use the 3D Viewer in Wordpress posts and pages, Woocommerce products, Elementor blocks etc. Supports GLTF, GLB, STL, OBJ+MTL and BABYLON files upload and demonstration as default viewing experience for 3D models. All aspects of this experience are configurable. If you need more control, you may use <babylon></babylon> tag in any Wordpress HTML block and configure all needed parameters (light, camera position, camera behaviour, rotating etc). Shortcode: [babylon]URL-OF-3D-FILE[/babylon]. Supports external URLs. 
- * Version: 0.31
+ * Version: 0.32
  * Author: Andrei Stepanov
  * Author URI: http://igiuk.com/babylon-3d-wordpress/
  * Licence: GNU General Public License v3.0
@@ -73,16 +73,8 @@ add_filter( 'wp_check_filetype_and_ext', 'babylonviewer_correct_filetypes' , 10,
 // Adding Babylon Viewer into header
 function babylonviewer_call() {
 
-/*
-if ( is_a( $post, 'WP_Post' ) && has_shortcode( $post->post_content, 'babylon') ) {
-wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null, true );
-}
-*/
-// write inside the loop
-
-
    if ( strpos( get_the_content(), '[babylon]' ) !== false || strpos( get_the_content(), '</babylon>' ) !== false ) {
-    wp_enqueue_script( 'babylon-viewer', esc_url_raw( 'https://cdn.babylonjs.com/viewer/babylon.viewer.js' ), array(), null, true );
+    wp_enqueue_script( 'babylon-viewer', plugin_dir_url( __FILE__ ) . 'js/babylon.viewer.js', array(), null, false );
 }
   //  } //END IF Babylon shortcode or tag exists
 } // END babylonviewer_call()
