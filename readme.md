@@ -2,7 +2,7 @@
 
 ### Version 0.31
 
-##### Successfully tested with Wordpress 6.11
+##### Successfully tested with Wordpress 6.2.2
 
 **Display 3D models, 3D animations and 3D scenes** with the help of shortcode [babylon]URL-OF-3D-FILE[/babylon] to use the **3D Viewer in Wordpress posts and pages, Woocommerce products, Elementor blocks** etc. 
 
