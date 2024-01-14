@@ -11,7 +11,8 @@
 
 **Supports GLTF, GLB, STL, OBJ+MTL** and **BABYLON** files upload and demonstration. 
 
-**Babylon Viewer 3D Wordpress Plugin** automatically **provides** a **default viewing experience for 3D models**. **All aspects** of this experience **are configurable**. See [Configuring Babylon.js Viewer](https://doc.babylonjs.com/extensions/configuring_the_viewer "Configuring Babylon.js Viewer") for more information on customizing the viewing experience.
+**Babylon Viewer 3D Wordpress Plugin** automatically **provides** a **default viewing experience for 3D models**. **All aspects** of this experience **are configurable**.
+See [Configuring Babylon.js Viewer](https://doc.babylonjs.com/features/featuresDeepDive/babylonViewer/configuringViewer) for more information on customizing the viewing experience.
 
 If you need **more control**, you may use `<babylon></babylon>` tag in any Wordpress HTML block and **configure all needed parameters** (light, camera position, camera behaviour, rotating etc).
 
@@ -63,7 +64,7 @@ Just put it into standard **Wordpress HTML Gutenberg block** and publish (result
                 </babylon>
 
 
-Read more about Babylon Viewer settings at https://doc.babylonjs.com/extensions/configuring_the_viewer
+Read more about Babylon Viewer settings at [https://doc.babylonjs.com/extensions/configuring_the_viewer](https://doc.babylonjs.com/features/featuresDeepDive/babylonViewer/configuringViewer)
 
 **Video Demonstration**: https://youtu.be/GNFNt2lGBYw
 
