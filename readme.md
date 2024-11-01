@@ -1,3 +1,5 @@
+**The new Babylon Viewer v2 3D Wordpress 3D Plugin - https://github.com/eldinor/babylon-viewer-wordpress-plugin**
+
 # Babylon Viewer 3D Wordpress Plugin
 
 ### Version 0.31
